@@ -1,0 +1,81 @@
+1. Let do some command:
+$ ( represent a regular user which mean the user is not an administrator)
+$pwd ( to show you which folder you are on)
+$ls ( to list)
+$ ls -a  ( list all files even hiden)
+$clear
+
+2. To see which user is logged in
+$w
+#whoami
+$who am i
+
+3. Dispalay the hostname
+$hostname
+
+4. Switch to root user:
+$ su - root   ( or su - ) require password 
+
+switch to mctar user
+# su - mctar              no password needed. 
+
+4. create an empty file called file1.txt
+  $ touch file1.txt
+  verify
+  $ ls
+  create file2.txt and file3.txt 
+  $touch file2.txt file3.txt
+5. long list a file or directory
+  $ ls -l
+6. create a directory call dir1
+  $mkdir dir1
+  change to dir1
+  $cd dir1
+  $pwd
+ create a directory with parent directory
+ $mkdir -p dir2/dir3
+
+
+To see the ip address:
+$ip a
+192.168.1.214
+subnet mask: 255.255.255.0
+              8 + 8 + 8 + 0 = 24
+
+255.255.255.255 = 32
+8  +  8 +  8 +  8  = 32
+  
+255 = 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 
+ 8  = 1   1   1   1    1    1    1    1
+
+255.255.255.254
+8    8   8   7   = 31
+
+254 = 128 + 64 + 32 + 16 + 8 + 4 + 2
+       1     1    1    1   1   1   1
+
+
+
+Homework: Build the following servers:
+         Rhel 9: name: node01
+                 disk: 30G
+                 cpu: 2G
+                 memory: 1700MG
+         rhel 8: same
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
